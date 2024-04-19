@@ -26,3 +26,45 @@
   color: white;
   transition: 0.5s;
 }
+
+.btn2{
+  padding: 10px 30px;
+  border: 2px solid green;
+  border-radius: 10px;
+  background: green;
+  color: white;
+  transition: 0.5s;
+}
+
+.btn2:hover{
+  padding: 10px 30px;
+  border: 2px solid #2da72d;
+  border-radius: 10px;
+  background: #2da72d;
+  color: white;
+  transition: 0.5s;
+}
+
+.bgimg1{
+  background-image: url('../src/bgimg/7-home.jpg');
+  height: 400px;
+  background-size: cover;
+}
+
+.btn3{
+  padding: 10px 40px;
+  border: 1px solid white;
+  color: white;
+  background: none;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.btn3:hover{
+  padding: 10px 40px;
+  border: 1px solid green;
+  background: green;
+  color: white;
+  border-radius: 10px;
+  transition: 0.5s;
+}

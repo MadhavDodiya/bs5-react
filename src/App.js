@@ -97,7 +97,7 @@ function App() {
   </Row>
 </Container>
 
-<Container className='mt-5'>
+<Container className='mt-5 mb-5'>
   <Row>
   <Col>
       <center>
@@ -110,6 +110,72 @@ function App() {
       </center>
   </Col>
   </Row>
+</Container>
+
+<Container className='mt-5 pt-5'>
+  <Row>
+    <Col md={4}>
+      <img src='/img/6-home.jpg' className='img-fluid'/>
+      <center>
+      <h3>Dragos Andrei Atudorei</h3>
+      <h6>WordPress Content Creator</h6>
+      <h6>Certified Web Designer</h6>
+      <h6>Incurable Perfectionist</h6>
+      </center>
+    </Col>
+    <Col md={8}>
+      <Container>
+        <Col>
+        <h6 className='pt-3 pb-3'>Welcome</h6>
+          <h1>My name is Andrei and I am the creator of this template.</h1>
+          <h4 className='pt-3'>I gave it my all to make this the best design to start from. I named it Hope, in honor of my client who inspired me to make it – her middle name is Hope.</h4>
+          <h4 className='pt-3'>For the first section at the top of the page, I recommend writing something that will pique the interest of your target audience. Make them curious to read more!</h4>
+          <h4 className='pt-3'>These middle sections are the perfect place to introduce yourself, and to perhaps start introducing your services.</h4>
+          <h4 className='pt-3'>The last section below is great for a call to action.</h4>
+          <button className='btn2 mt-3'>
+            See My services
+          </button>
+          <button className='btn1 ms-3 mt-3'>
+          More About Me
+          </button>
+        </Col>
+      </Container>
+    </Col>
+  </Row>
+</Container>
+
+<Col className='bgimg1'>
+  <Container className='mt-5 pt-4'>
+  <center>
+    <h1 className='text-light display-2 pt-5'>Insert a call to action</h1>
+    <h3 className='text-light pt-3'>Think of what you want your visitor to do next.<br/> Maybe they should contact you?</h3>
+    <button className='btn3 mt-2'>
+      Get in Touch
+    </button>
+  </center>
+  </Container>
+</Col>
+
+<Container>
+<Row>
+  <Col md={4} className='p-5'>
+    <span className='p-2'>Home</span>
+    <span className='p-2'>About</span>
+    <span className='p-2'>Contact</span>
+    <span className='p-2'>Service</span>
+  </Col>
+  <Col md={4}>
+    <center>
+      <br/>
+      <img src='/img/logo-black-1.png' style={{height:"50px"}} className='mt-2'/>
+    </center>
+  </Col>
+  <Col md={4} className='p-5'>
+    <center>
+      <p>© 2024 Hope Starter Design</p>
+    </center>
+  </Col>
+</Row>
 </Container>
     
     </>
